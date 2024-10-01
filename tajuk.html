@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Buku Latihan</title>
+    <style>
+        body {
+            margin: 0;
+            background-color:#FFF8DC; /* Light yellow color */
+            color: #333333;/*dark grey for title */
+            text-align: center; /* Center text alignment */
+            padding: 5px; /* Padding */
+            font-size: 60px; /* Font size for title */
+            font-family: 'Cooper Black', Arial, sans-serif; /* Font style */
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center; /* Vertical centering */
+            flex-direction: column; /* Stack items vertically */
+        }
+        .nav-links {
+            font-size: 24px; /* Smaller font size for links */
+            margin-top: 10px; /* Space above the links */
+        }
+        .nav-links a {
+            margin: 10px; /* Space between links */
+            color: #333333; /* Set link color to dark grey */
+            text-decoration: none; /* Remove underline */
+            position: relative; /* Positioning for the line */
+        }
+        .nav-links a::after {
+            content: '';
+            display: block;
+            width: 100%; /* Line width */
+            height: 2px; /* Line height */
+            background-color: #333333; /* Line color changed to dark grey */
+            margin-top: 5px; /* Space above the line */
+            position: absolute; /* Position the line below the text */
+            left: 0;
+            right: 0;
+            bottom: -5px; /* Positioning below the text */
+        }
+    </style>
+</head>
+<body>
+<p>Kedai buku Latihan</p>
+</body>
+</html>
